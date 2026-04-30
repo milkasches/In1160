@@ -1,0 +1,7 @@
+[tool.ruff]
+# Sets the maximum line length to 120 (88 is default).
+line-length = 120
+
+[tool.ruff.lint]
+# Ignore unused imports (convenient for notebooks)
+ignore = ["F401"]
